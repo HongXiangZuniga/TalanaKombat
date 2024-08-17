@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "1c363f94-225e-4145-a962-d37b779c1704",
+		"name": "Collection for talanakombat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5830269"
+	},
+	"item": [
+		{
+			"name": "[Fix] Test 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player1\": {\n        \"movimientos\": [\n            \"D\",\n            \"DSD\",\n            \"S\",\n            \"DSD\",\n            \"SD\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"P\",\n            \"K\",\n            \"K\",\n            \"P\"\n        ]\n    },\n    \"player2\": {\n        \"movimientos\": [\n            \"SA\",\n            \"SA\",\n            \"SA\",\n            \"ASA\",\n            \"SA\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"\",\n            \"K\",\n            \"P\",\n            \"P\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/game",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"game"
+					]
+				},
+				"description": "Collection for talanakombat"
+			},
+			"response": []
+		},
+		{
+			"name": "[Original] Test 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player1\": {\n        \"movimientos\": [\n            \"D\",\n            \"DSD\",\n            \"S\",\n            \"DSD\",\n            \"SD\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"P\",\n            \"\",\n            \"K\",\n            \"P\"\n        ]\n    },\n    \"player2\": {\n        \"movimientos\": [\n            \"SA\",\n            \"SA\",\n            \"SA\",\n            \"ASA\",\n            \"SA\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"\",\n            \"K\",\n            \"P\",\n            \"P\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/game",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"game"
+					]
+				},
+				"description": "Collection for talanakombat"
+			},
+			"response": []
+		},
+		{
+			"name": "[Original] Test 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player1\": {\n        \"movimientos\": [\n            \"SDD\",\n            \"DSD\",\n            \"SA\",\n            \"DSD\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"P\",\n            \"K\",\n            \"P\"\n        ]\n    },\n    \"player2\": {\n        \"movimientos\": [\n            \"DSD\",\n            \"WSAW\",\n            \"ASA\",\n            \"\",\n            \"ASA\",\n            \"SA\"\n        ],\n        \"golpes\": [\n            \"P\",\n            \"K\",\n            \"K\",\n            \"K\",\n            \"P\",\n            \"k\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/game",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"game"
+					]
+				},
+				"description": "Collection for talanakombat"
+			},
+			"response": []
+		},
+		{
+			"name": "[Original] Test 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player1\": {\n        \"movimientos\": [\n            \"DSD\",\n            \"S\"\n        ],\n        \"golpes\": [\n            \"P\",\n            \"\"\n        ]\n    },\n    \"player2\": {\n        \"movimientos\": [\n            \"\",\n            \"ASA\",\n            \"DA\",\n            \"AAA\",\n            \"\",\n            \"SA\"\n        ],\n        \"golpes\": [\n            \"P\",\n            \"\",\n            \"P\",\n            \"K\",\n            \"K\",\n            \"K\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/game",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"game"
+					]
+				},
+				"description": "Collection for talanakombat"
+			},
+			"response": []
+		}
+	]
+}
