@@ -3,7 +3,9 @@
 Esta es una prueba técnica desarrollada para Talana, utilizando Go y la arquitectura hexagonal. El proyecto implementa un juego de combate simple, donde los jugadores pueden realizar movimientos y combos predefinidos. La arquitectura hexagonal permite dividir el proyecto en tres capas principales: 
 
 -**Game**: Encargada del bucle principal del juego (game loop).
+
 -**Relator**: Responsable de los mensajes de resultado.
+
 -**Fight**: Gestiona la validación de movimientos y combos.
 
 Este documento explica cómo configurar y ejecutar el proyecto, tanto en entorno local como dentro de un contenedor Docker.
