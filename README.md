@@ -70,7 +70,9 @@ La estructura del proyecto sigue la arquitectura hexagonal, separando las respon
 ├── cmd
 │   └── api
 │       └── main.go  # Punto de entrada de la aplicación
-├── collection.json  # Colección de Postman para pruebas
+├── collection.json # Colección de Postman para pruebas
+├── deploy
+│   └── prod.yml    # ejemplo de deployment.yml para kubernetes
 ├── go.mod          # Módulo de Go con dependencias
 ├── go.sum          # Suma de verificación de las dependencias
 └── internal        # Lógica interna de la aplicación
